@@ -1,0 +1,11 @@
+file_format: "1"
+id: tbkmini
+name: TBKMINI
+type: shield
+url: https://github.com/airatb1508/zmk-config-tbk-mini
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - tbkmini_left
+  - tbkmini_right
