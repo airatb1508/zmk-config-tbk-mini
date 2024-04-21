@@ -8,7 +8,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <352>;
+    tapping-term-ms = <220>;
 };
 
 / {
@@ -17,7 +17,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
     };
@@ -46,7 +46,7 @@
             label = "BASE";
             bindings = <
 &kp ESC         &kp Q             &kp W  &kp E     &kp R     &kp T    &kp Y            &kp U        &kp I      &kp O    &kp P                  &kp LBKT
-&kp LCTRL       &mt LCTRL A       &kp S  &kp D     &kp F     &kp G    &kp H            &kp J        &kp K      &kp L    &mt RCTRL SEMI         &kp APOS
+&mt LCTRL TAB   &mt LCTRL A       &kp S  &kp D     &kp F     &kp G    &kp H            &kp J        &kp K      &kp L    &mt RCTRL SEMI         &kp APOS
 &kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X  &kp C     &kp V     &kp B    &kp N            &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &kp BSLH
                                          &kp LGUI  &kp LALT  &kp TAB  &lt 1 BACKSPACE  &lt 2 SPACE  &kp ENTER
             >;
@@ -54,10 +54,10 @@
 
         num {
             bindings = <
-&trans  &kp UNDER          &kp TILDE  &kp F3    &kp F4      &kp PLUS     &kp MINUS  &kp EQUAL  &kp APOS  &kp LBKT              &kp RBKT                     &trans
-&trans  &mt LCTRL EXCL     &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS   &kp STAR  &kp LEFT_PARENTHESIS  &mt RCTRL RIGHT_PARENTHESIS  &trans
-&trans  &mt LEFT_SHIFT N1  &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7     &kp N8    &kp N9                &mt RIGHT_SHIFT N0           &trans
-                                      &trans    &trans      &trans       &trans     &trans     &trans
+&trans     &kp UNDER          &kp TILDE  &kp F3    &kp F4      &kp PLUS     &kp MINUS  &kp EQUAL  &kp GRAVE  &kp LBKT              &kp RBKT                     &trans
+&kp TILDE  &mt LCTRL EXCL     &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS   &kp STAR   &kp LEFT_PARENTHESIS  &mt RCTRL RIGHT_PARENTHESIS  &trans
+&trans     &mt LEFT_SHIFT N1  &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7     &kp N8     &kp N9                &mt RIGHT_SHIFT N0           &trans
+                                         &trans    &trans      &trans       &trans     &trans     &trans
             >;
         };
 
