@@ -20,6 +20,21 @@
             key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
+
+        h {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <9 10>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <21 22>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
