@@ -81,10 +81,10 @@
 
         alt_chars {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SQT           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSLASH     &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SQT           &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSLASH     &trans
+                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
