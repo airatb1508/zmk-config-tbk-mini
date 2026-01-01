@@ -35,6 +35,16 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <33 34>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <22 21>;
+        };
     };
 
     macros {
